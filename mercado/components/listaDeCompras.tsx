@@ -1,4 +1,4 @@
-import {Item}from '@/data/listaData'
+import {Item} from '@/data/listaData'
 
 //Definir o formato da interface de props, com o componente listaDeCompras 
 //lista de itens (Array de Item)
@@ -22,7 +22,7 @@ function listaDeCompras(props: listaDeComprasProps){
                 </div>
             );
             }
-        )};
+        )}
         </>
     )
 };
